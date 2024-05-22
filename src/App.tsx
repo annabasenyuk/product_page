@@ -1,8 +1,9 @@
 import './App.css'
+import { ProductPage } from './pages/ProductPage'
 
 function App() {
   return (
-    <h1>New Project</h1>
+    <ProductPage />
   )
 }
 
