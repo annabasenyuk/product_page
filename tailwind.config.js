@@ -2,7 +2,8 @@ import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 
 export default {
-  content: ["./src/**/*.{html,js,ts,tsx}"],
+  // content: ["./src/**/*.{html,js,ts,tsx}"],
+  content: ['./dist/*.html'],
   theme: {
     extend: {
       SuisseInt: ['SuisseInt', 'normal'],
