@@ -3,7 +3,10 @@ import autoprefixer from 'autoprefixer';
 
 export default {
   // content: ["./src/**/*.{html,js,ts,tsx}"],
-  content: ['./dist/*.html'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       SuisseInt: ['SuisseInt', 'normal'],
