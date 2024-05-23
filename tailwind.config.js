@@ -19,11 +19,13 @@ export default {
         textColor05: '#676869',
         textColor06: '#828282',
         borderColor: '#EDEDED',
+        borderColor01: '#EAEAEA',
         textColor07: '#868787',
         textColor08: '#6C6C6C',
         textColor09: '#2A2996',
         bgColor01:'#F9F0E6',
         bgColor02:'#F0EEEF',
+        bgColor03:'#1C2E58',
       },
       lineHeight: {
         '11': '35px',
@@ -36,7 +38,8 @@ export default {
 
       },
       boxShadow: {
-        'shadow00': '0px 3px 10px 0px #00000014',
+        shadow00: '0px 3px 10px 0px #00000014',
+        shadow01: '0px 3px 10px 1px #00000014',
       }
     },
   },
