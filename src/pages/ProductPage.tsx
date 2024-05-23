@@ -11,6 +11,7 @@ import leafIcon from '../assets/icons/leaf-icon.svg';
 import womanInWhiteRobe from '../assets/woman-in-white-robe.png';
 import whiteRobe1 from '../assets/group-robe/white-robe-1.png';
 import whiteRobe2 from '../assets/group-robe/white-robe-2.png';
+import founderPicture from '../assets/founder-pictures.png';
 
 export const ProductPage = () => {
   return (
@@ -73,16 +74,16 @@ export const ProductPage = () => {
         </div>
       </section>
 
-      <section className='pt-[77px] px-[106px] flex justify-center flex-col items-center'>
+      <section className='pt-[77px] px-[106px] pb-[113px] flex justify-center flex-col items-center'>
         <div className='font-SofiaPro font-semibold text-[20px] leading-13 tracking-[0.07em] text-textColor07 mb-[15px]'>as seen in</div>
         <img src={logoPartners} alt="Logo partners" className='max-w-[1253px]' />
       </section>
 
-      <section className='pt-[110px] flex justify-between h-screen items-center'>
+      <section className='flex justify-between content-between h-screen'>
         {/* <div className='ml-[136px]'> */}
-        <div className='pl-[136px]'>
+        <div className='pl-[136px] flex flex-col items-stretch'>
           <h2 className="font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor01 mb-[74px] ml-[7px]">Loungewear you can be proud of.</h2>
-
+          
           <div className='mb-[35px]'>
             <div className='flex mb-[23px]'>
               <img src={basketIcon} alt="Icon day and night" className='w-[31px] h-[31px] mr-[32px]' />
@@ -139,6 +140,30 @@ export const ProductPage = () => {
           </div>
 
           <div className='font-SuisseIntLight font-semibold text-[13px] leading-17 tracking-[0.04em] text-textColor05 text-center'>White Robe</div>
+        </div>
+      </section>
+
+      <section className='h-screen flex justify-between items-center bg-bgColor02 pl-[123px] pr-[99px]'>
+        <div>
+          <img src={founderPicture} alt="Founder pictures" className='max-w-[523px]' />
+        </div>
+
+        <div className='w-[619px]'>
+          <h2 className="font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor09 mb-[30px]">Be your best self.</h2>
+
+          <div className='mb-[29px]'>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08 mb-[23px]'>Hi! My name’s [Insert Name], and I founded [Insert] in ____. </p>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08 mb-[23px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat. </p>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08 mb-[23px]'>Fusce non nibh luctus, dignissim risus quis, bibendum dolor. Donec placerat volutpat ligula, ac consectetur felis varius non. Aliquam a nunc rutrum, porttitor dolor eu, pellentesque est. Vivamus id arcu congue, faucibus libero nec, placerat ligula.</p>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08 mb-[23px]'>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu nisl a metus ultrices sodales.</p>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08 mb-[23px]'>Fusce non ante velit. Sed auctor odio eu semper molestie. Nam mattis, sapien eget lobortis fringilla, eros ipsum tristique tellus, ac convallis urna massa at nibh. </p>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08 mb-[23px]'>Duis non fermentum augue. Vivamus laoreet aliquam risus, sed euismod leo aliquam ut. Vivamus in felis eu lacus feugiat aliquam nec in sapien. </p>
+            <p className='font-SofiaPro font-semibold text-[15px] leading-13 tracking-[0.01em] text-textColor08'>Cras mattis varius mollis.</p>
+          </div>
+
+          <button className="w-[356px] h-[56px] rounded-[5px] bg-textColor01 flex items-center justify-center text-white font-SuisseIntLight font-normal text-[18px] leading-13 tracking-[0.12em] relative">
+            Customize Your Outfit
+          </button>
         </div>
       </section>
     </div>

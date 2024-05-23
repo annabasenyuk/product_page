@@ -21,6 +21,8 @@ export default {
         borderColor: '#EDEDED',
         textColor07: '#868787',
         textColor08: '#6C6C6C',
+        textColor09: '#2A2996',
+        bgColor02:'#F0EEEF',
       },
       lineHeight: {
         '11': '35px',

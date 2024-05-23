@@ -578,6 +578,10 @@ video {
   margin-bottom: 12px;
 }
 
+.mb-\[13px\] {
+  margin-bottom: 13px;
+}
+
 .mb-\[14px\] {
   margin-bottom: 14px;
 }
@@ -592,6 +596,14 @@ video {
 
 .mb-\[25px\] {
   margin-bottom: 25px;
+}
+
+.mb-\[29px\] {
+  margin-bottom: 29px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .mb-\[33px\] {
@@ -662,10 +674,6 @@ video {
   margin-right: 7px;
 }
 
-.mb-\[13px\] {
-  margin-bottom: 13px;
-}
-
 .flex {
   display: flex;
 }
@@ -726,10 +734,6 @@ video {
   width: 425px;
 }
 
-.w-\[433px\] {
-  width: 433px;
-}
-
 .w-\[470px\] {
   width: 470px;
 }
@@ -742,8 +746,20 @@ video {
   width: 60px;
 }
 
+.w-\[619px\] {
+  width: 619px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[3px\] {
+  width: 3px;
+}
+
+.w-\[356px\] {
+  width: 356px;
 }
 
 .max-w-\[1253px\] {
@@ -752,6 +768,10 @@ video {
 
 .max-w-\[433px\] {
   max-width: 433px;
+}
+
+.max-w-\[523px\] {
+  max-width: 523px;
 }
 
 .max-w-\[725px\] {
@@ -775,8 +795,16 @@ video {
   flex-direction: column;
 }
 
+.content-between {
+  align-content: space-between;
+}
+
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-center {
@@ -808,6 +836,11 @@ video {
   border-color: rgb(237 237 237 / var(--tw-border-opacity));
 }
 
+.bg-bgColor02 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 238 239 / var(--tw-bg-opacity));
+}
+
 .bg-neutralColor {
   --tw-bg-opacity: 1;
   background-color: rgb(249 240 229 / var(--tw-bg-opacity));
@@ -833,8 +866,16 @@ video {
   padding-bottom: 16px;
 }
 
+.pl-\[123px\] {
+  padding-left: 123px;
+}
+
 .pl-\[136px\] {
   padding-left: 136px;
+}
+
+.pr-\[99px\] {
+  padding-right: 99px;
 }
 
 .pt-\[110px\] {
@@ -843,6 +884,10 @@ video {
 
 .pt-\[77px\] {
   padding-top: 77px;
+}
+
+.pb-\[113px\] {
+  padding-bottom: 113px;
 }
 
 .text-center {
@@ -973,6 +1018,11 @@ video {
 .text-textColor08 {
   --tw-text-opacity: 1;
   color: rgb(108 108 108 / var(--tw-text-opacity));
+}
+
+.text-textColor09 {
+  --tw-text-opacity: 1;
+  color: rgb(42 41 150 / var(--tw-text-opacity));
 }
 
 .text-white {
