@@ -26,6 +26,7 @@ export default {
         bgColor01:'#F9F0E6',
         bgColor02:'#F0EEEF',
         bgColor03:'#1C2E58',
+        bgColor04:'#C4C4C480',
       },
       lineHeight: {
         '11': '35px',
