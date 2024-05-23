@@ -16,30 +16,30 @@ export const ProductPage = () => {
   return (
     <div className="">
       <section className="h-screen relative  ">
-        <div className="bg w-full h-[36px] bg-neutralColor flex items-center justify-center mb-[33px]">
+        <div className="w-full h-[36px] bg-neutralColor flex items-center justify-center mb-[33px]">
           <p className="font-SuisseInt font-normal text-[11px] leading-11 tracking-[0.03em] text-textColor04">CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)  |  FREE SHIPPING on orders {'>'} $200  |  easy 45 day return window.</p>
         </div>
 
-        <img src={Logo} alt="Logo Byteex" className="w-[200px] ml-[96px] mb-[62px] mt-[69px]" />
+        <img src={Logo} alt="Logo Byteex" className="w-[200px] ml-[96px] mb-[62px]" />
 
         <div className='flex justify-between ml-[102px]'>
-          <div className='w-[592px]'>
+          <div className='w-[500px]'>
             <h1 className='font-SofiaPro font-semibold text-[38px] leading-12 text-textColor01 tracking-[0.03em] mb-[25px]'>Don’t apologize for being comfortable.</h1>
 
-            <div className='mb-[35px]'>
-              <div className='flex mb-[23px]'>
+            <div className='mb-[35px] w-[425px]'>
+              <div className='flex items-center mb-[23px]'>
                 <img src={dayNightIcon} alt="Icon day and night" className='w-[31px] h-[31px] mr-[13px]' />
 
                 <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor05">Beautiful, comfortable loungewear for day or night.</p>
               </div>
 
-              <div className='flex mb-[23px]'>
+              <div className='flex items-center mb-[23px]'>
                 <img src={basketIcon} alt="Icon basket" className='w-[31px] h-[31px] mr-[13px]' />
 
                 <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor05">No wasteful extras, like tags or plastic packaging.</p>
               </div>
 
-              <div className='flex'>
+              <div className='flex items-center'>
                 <img src={waveIcon} alt="Icon wave" className='w-[31px] h-[31px] mr-[13px]' />
 
                 <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor05">Our signature fabric is incredibly comfortable — unlike anything you’ve ever felt.</p>
@@ -52,7 +52,7 @@ export const ProductPage = () => {
             </button>
           </div>
 
-          <img src={threeWomen} alt="Three women in comfortable loungewear" className='w-[725px]' />
+          <img src={threeWomen} alt="Three women in comfortable loungewear" className='max-w-[725px] mr-[62px]' />
         </div>
 
         <div className='absolute w-[416px] rounded-[4px] px-[19px] py-[16px] border border-solid border-borderColor shadow-shadow00 ml-[106px] bottom-0 transform translate-y-1/2 '>
@@ -78,9 +78,9 @@ export const ProductPage = () => {
         <img src={logoPartners} alt="Logo partners" className='max-w-[1253px]' />
       </section>
 
-      <section className='pt-[110px] flex h-screen items-center'>
+      <section className='pt-[110px] flex justify-between h-screen items-center'>
         {/* <div className='ml-[136px]'> */}
-        <div className='ml-[136px]'>
+        <div className='pl-[136px]'>
           <h2 className="font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor01 mb-[74px] ml-[7px]">Loungewear you can be proud of.</h2>
 
           <div className='mb-[35px]'>
@@ -122,21 +122,23 @@ export const ProductPage = () => {
           </div>
         </div>
 
-        <div>
-          <div className='relative'>
-            <img src={womanInWhiteRobe} alt="Woman in white loungewear" className='w-[433px]' />
-            <div className='flex'>
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe2} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
-              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+        <div className='mr-[66px]'>
+          <div className='relative mb-[13px]'>
+            <img src={womanInWhiteRobe} alt="Woman in white loungewear" className='max-w-[433px] max-h-[648px]' />
+
+            <div className='flex items-center justify-center absolute bottom-0 w-full'>
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe2} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px] mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='w-[31px] h-[32px]' />
             </div>
           </div>
 
+          <div className='font-SuisseIntLight font-semibold text-[13px] leading-17 tracking-[0.04em] text-textColor05 text-center'>White Robe</div>
         </div>
       </section>
     </div>

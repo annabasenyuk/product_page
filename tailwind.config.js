@@ -29,6 +29,7 @@ export default {
         '14': '20px',
         '15': '24px',
         '16': '40px',
+        '17': '22px',
 
       },
       boxShadow: {
