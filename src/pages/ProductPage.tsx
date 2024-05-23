@@ -7,6 +7,10 @@ import threeWomen from '../assets/three-women.png';
 import womanPicture from '../assets/woman-picture.png';
 import starsIcon from '../assets/icons/stars-icon.svg';
 import logoPartners from '../assets/Logo-partners.svg';
+import leafIcon from '../assets/icons/leaf-icon.svg';
+import womanInWhiteRobe from '../assets/woman-in-white-robe.png';
+import whiteRobe1 from '../assets/group-robe/white-robe-1.png';
+import whiteRobe2 from '../assets/group-robe/white-robe-2.png';
 
 export const ProductPage = () => {
   return (
@@ -72,6 +76,68 @@ export const ProductPage = () => {
       <section className='pt-[77px] px-[106px] flex justify-center flex-col items-center'>
         <div className='font-SofiaPro font-semibold text-[20px] leading-13 tracking-[0.07em] text-textColor07 mb-[15px]'>as seen in</div>
         <img src={logoPartners} alt="Logo partners" className='max-w-[1253px]' />
+      </section>
+
+      <section className='pt-[110px] flex h-screen items-center'>
+        {/* <div className='ml-[136px]'> */}
+        <div className='ml-[136px]'>
+          <h2 className="font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor01 mb-[74px] ml-[7px]">Loungewear you can be proud of.</h2>
+
+          <div className='mb-[35px]'>
+            <div className='flex mb-[23px]'>
+              <img src={basketIcon} alt="Icon day and night" className='w-[31px] h-[31px] mr-[32px]' />
+
+              <div className="w-[470px]">
+                <h3 className="font-SofiaPro font-semibold text-[22px] leading-15 tracking-[0.01em] text-textColor01 mb-[14px]">Ethically sourced.</h3>
+                <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor08">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</p>
+              </div>
+            </div>
+
+            <div className='flex mb-[23px]'>
+              <img src={leafIcon} alt="Icon day and night" className='w-[31px] h-[31px] mr-[32px]' />
+
+              <div className="w-[470px]">
+                <h3 className="font-SofiaPro font-semibold text-[22px] leading-15 tracking-[0.01em] text-textColor01 mb-[14px]">Responsibly made.</h3>
+                <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor08">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</p>
+              </div>
+            </div>
+
+            <div className='flex mb-[23px]'>
+              <img src={dayNightIcon} alt="Icon basket" className='w-[31px] h-[31px] mr-[32px]' />
+
+              <div className="w-[470px]">
+                <h3 className="font-SofiaPro font-semibold text-[22px] leading-15 tracking-[0.01em] text-textColor01 mb-[14px]">Made for living in.</h3>
+                <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor08">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</p>
+              </div>
+            </div>
+
+            <div className='flex'>
+              <img src={waveIcon} alt="Icon wave" className='w-[31px] h-[31px] mr-[32px]' />
+
+              <div className="w-[470px]">
+                <h3 className="font-SofiaPro font-semibold text-[22px] leading-15 tracking-[0.01em] text-textColor01 mb-[14px]">Unimaginably comfortable.</h3>
+                <p className="font-SofiaPro font-medium text-[15px] leading-13 tracking-[0.01em] text-textColor08">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className='relative'>
+            <img src={womanInWhiteRobe} alt="Woman in white loungewear" className='w-[433px]' />
+            <div className='flex'>
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe2} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+              <img src={whiteRobe1} alt="different options of the robe" className='mr-[7px]' />
+            </div>
+          </div>
+
+        </div>
       </section>
     </div>
   )
