@@ -16,6 +16,7 @@ import vehicleIconOriginal from '../assets/icons/vehicle-icon-original.svg';
 import basketIconOriginal from '../assets/icons/basket-icon-original.svg';
 import dayNightIconOriginal from '../assets/icons/day-night-icon-original.svg';
 import differentWomen from '../assets/different-women.png';
+import threeWomenInLoungewear from '../assets/three-women-in-loungewear.png';
 
 export const ProductPage = () => {
   return (
@@ -262,6 +263,16 @@ export const ProductPage = () => {
           <img src={starsIcon} alt="Rating with stars" className='w-[80px] mr-[14px]' />
           <div className='font-SuisseIntLight font-normal text-[12px] leading-14 tracking-[0.04em] text-textColor06'>One of 500+ 5 Star Reviews Online</div>
         </div>
+      </section>
+
+      <section className='h-screen flex items-center justify-between pl-[211px] pr-[105px]'>
+        <div>
+          <h2 className='font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor01 mb-[50px]'>Frequently asked questions.</h2>
+
+          <div></div>
+        </div>
+
+        <img src={threeWomenInLoungewear} alt="Three women in loungewear" className='w-[430px]' />
       </section>
     </div>
   )

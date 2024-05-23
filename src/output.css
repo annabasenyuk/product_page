@@ -630,6 +630,10 @@ video {
   margin-bottom: 46px;
 }
 
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
 .mb-\[55px\] {
   margin-bottom: 55px;
 }
@@ -640,6 +644,10 @@ video {
 
 .mb-\[62px\] {
   margin-bottom: 62px;
+}
+
+.mb-\[63px\] {
+  margin-bottom: 63px;
 }
 
 .mb-\[74px\] {
@@ -698,6 +706,10 @@ video {
   margin-right: 45px;
 }
 
+.mr-\[49px\] {
+  margin-right: 49px;
+}
+
 .mr-\[62px\] {
   margin-right: 62px;
 }
@@ -708,14 +720,6 @@ video {
 
 .mr-\[7px\] {
   margin-right: 7px;
-}
-
-.mb-\[63px\] {
-  margin-bottom: 63px;
-}
-
-.mr-\[49px\] {
-  margin-right: 49px;
 }
 
 .flex {
@@ -744,10 +748,6 @@ video {
 
 .h-\[39px\] {
   height: 39px;
-}
-
-.h-\[40px\] {
-  height: 40px;
 }
 
 .h-\[51px\] {
@@ -810,6 +810,10 @@ video {
   width: 425px;
 }
 
+.w-\[430px\] {
+  width: 430px;
+}
+
 .w-\[470px\] {
   width: 470px;
 }
@@ -822,12 +826,12 @@ video {
   width: 51px;
 }
 
-.w-\[60px\] {
-  width: 60px;
+.w-\[560px\] {
+  width: 560px;
 }
 
-.w-\[613px\] {
-  width: 613px;
+.w-\[60px\] {
+  width: 60px;
 }
 
 .w-\[619px\] {
@@ -844,18 +848,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[550px\] {
-  width: 550px;
-}
-
-.w-\[560px\] {
-  width: 560px;
 }
 
 .max-w-\[1253px\] {
@@ -911,6 +903,10 @@ video {
   justify-content: space-between;
 }
 
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .rounded-\[4px\] {
   border-radius: 4px;
 }
@@ -921,14 +917,6 @@ video {
 
 .rounded-\[8px\] {
   border-radius: 8px;
-}
-
-.rounded-\[10px\] {
-  border-radius: 10px;
-}
-
-.rounded-\[20px\] {
-  border-radius: 20px;
 }
 
 .border {
@@ -959,6 +947,11 @@ video {
   background-color: rgb(240 238 239 / var(--tw-bg-opacity));
 }
 
+.bg-bgColor03 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 46 88 / var(--tw-bg-opacity));
+}
+
 .bg-neutralColor {
   --tw-bg-opacity: 1;
   background-color: rgb(249 240 229 / var(--tw-bg-opacity));
@@ -967,11 +960,6 @@ video {
 .bg-textColor01 {
   --tw-bg-opacity: 1;
   background-color: rgb(1 0 91 / var(--tw-bg-opacity));
-}
-
-.bg-bgColor03 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 46 88 / var(--tw-bg-opacity));
 }
 
 .px-\[106px\] {
@@ -1013,6 +1001,14 @@ video {
 
 .pl-\[136px\] {
   padding-left: 136px;
+}
+
+.pl-\[211px\] {
+  padding-left: 211px;
+}
+
+.pr-\[105px\] {
+  padding-right: 105px;
 }
 
 .pr-\[99px\] {
