@@ -6,10 +6,11 @@ import arrowRight from '../assets/icons/arrow-right-icon.svg';
 import threeWomen from '../assets/three-women.png';
 import womanPicture from '../assets/woman-picture.png';
 import starsIcon from '../assets/icons/stars-icon.svg';
+import logoPartners from '../assets/Logo-partners.svg';
 
 export const ProductPage = () => {
   return (
-    <div className="h-screen">
+    <div className="">
       <section className="h-screen relative  ">
         <div className="bg w-full h-[36px] bg-neutralColor flex items-center justify-center mb-[33px]">
           <p className="font-SuisseInt font-normal text-[11px] leading-11 tracking-[0.03em] text-textColor04">CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)  |  FREE SHIPPING on orders {'>'} $200  |  easy 45 day return window.</p>
@@ -50,7 +51,7 @@ export const ProductPage = () => {
           <img src={threeWomen} alt="Three women in comfortable loungewear" className='w-[725px]' />
         </div>
 
-        <div className='absolute w-[416px] rounded-[4px] px-[19px] py-[16px] border border-solid border-borderColor shadow-shadow00 ml-[106px] bottom-0 top-1/2 transform translate-y-1/2'>
+        <div className='absolute w-[416px] rounded-[4px] px-[19px] py-[16px] border border-solid border-borderColor shadow-shadow00 ml-[106px] bottom-0 transform translate-y-1/2 '>
           <div className='flex justify-between mb-[12px]'>
             <div className='flex items-center justify-center'>
               <img src={womanPicture} alt="woman picture" className='w-[39px] h-[39px] mr-[14px]' />
@@ -66,7 +67,11 @@ export const ProductPage = () => {
 
           <p className='font-SuisseIntLight font-normal text-[12px] leading-13 tracking-[0.04em] text-textColor05'>Overjoyed with my Loungewear set. I have the jogger and the sweatshirt. Quality product on every level. From the compostable packaging, to the supplied washing bag, even the garments smells like fresh herbs when I first held them. </p>
         </div>
+      </section>
 
+      <section className='pt-[77px] px-[106px] flex justify-center flex-col items-center'>
+        <div className='font-SofiaPro font-semibold text-[20px] leading-13 tracking-[0.07em] text-textColor07 mb-[15px]'>as seen in</div>
+        <img src={logoPartners} alt="Logo partners" className='max-w-[1253px]' />
       </section>
     </div>
   )

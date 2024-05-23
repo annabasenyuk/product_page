@@ -4,8 +4,8 @@ import autoprefixer from 'autoprefixer';
 export default {
   // content: ["./src/**/*.{html,js,ts,tsx}"],
   content: [
-    "./dist/*.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./dist/**/*.{js,ts,jsx,tsx,html}",
+    "./src/**/*.{js,ts,jsx,tsx,html}",
   ],
   theme: {
     extend: {
@@ -18,7 +18,8 @@ export default {
         textColor04: '#565656',
         textColor05: '#676869',
         textColor06: '#828282',
-        borderColor: '#EDEDED'
+        borderColor: '#EDEDED',
+        textColor07: '#868787',
       },
       lineHeight: {
         '11': '35px',
