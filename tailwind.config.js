@@ -22,6 +22,7 @@ export default {
         textColor07: '#868787',
         textColor08: '#6C6C6C',
         textColor09: '#2A2996',
+        bgColor01:'#F9F0E6',
         bgColor02:'#F0EEEF',
       },
       lineHeight: {

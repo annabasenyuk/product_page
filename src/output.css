@@ -590,6 +590,14 @@ video {
   margin-bottom: 15px;
 }
 
+.mb-\[16px\] {
+  margin-bottom: 16px;
+}
+
+.mb-\[19px\] {
+  margin-bottom: 19px;
+}
+
 .mb-\[23px\] {
   margin-bottom: 23px;
 }
@@ -612,6 +620,10 @@ video {
 
 .mb-\[35px\] {
   margin-bottom: 35px;
+}
+
+.mb-\[46px\] {
+  margin-bottom: 46px;
 }
 
 .mb-\[62px\] {
@@ -674,6 +686,30 @@ video {
   margin-right: 7px;
 }
 
+.mt-\[75px\] {
+  margin-top: 75px;
+}
+
+.mr-\[41px\] {
+  margin-right: 41px;
+}
+
+.mb-\[56px\] {
+  margin-bottom: 56px;
+}
+
+.ml-\[8px\] {
+  margin-left: 8px;
+}
+
+.ml-\[12px\] {
+  margin-left: 12px;
+}
+
+.mb-\[11px\] {
+  margin-bottom: 11px;
+}
+
 .flex {
   display: flex;
 }
@@ -684,6 +720,10 @@ video {
 
 .h-\[31px\] {
   height: 31px;
+}
+
+.h-\[321px\] {
+  height: 321px;
 }
 
 .h-\[32px\] {
@@ -698,12 +738,24 @@ video {
   height: 39px;
 }
 
+.h-\[51px\] {
+  height: 51px;
+}
+
 .h-\[56px\] {
   height: 56px;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[49px\] {
+  height: 49px;
+}
+
+.h-\[60px\] {
+  height: 60px;
 }
 
 .max-h-\[648px\] {
@@ -714,8 +766,20 @@ video {
   width: 200px;
 }
 
+.w-\[275px\] {
+  width: 275px;
+}
+
 .w-\[31px\] {
   width: 31px;
+}
+
+.w-\[346px\] {
+  width: 346px;
+}
+
+.w-\[356px\] {
+  width: 356px;
 }
 
 .w-\[362px\] {
@@ -742,6 +806,10 @@ video {
   width: 500px;
 }
 
+.w-\[51px\] {
+  width: 51px;
+}
+
 .w-\[60px\] {
   width: 60px;
 }
@@ -754,12 +822,16 @@ video {
   width: 100%;
 }
 
-.w-\[3px\] {
-  width: 3px;
+.w-\[69px\] {
+  width: 69px;
 }
 
-.w-\[356px\] {
-  width: 356px;
+.w-\[369px\] {
+  width: 369px;
+}
+
+.w-\[80px\] {
+  width: 80px;
 }
 
 .max-w-\[1253px\] {
@@ -823,6 +895,10 @@ video {
   border-radius: 5px;
 }
 
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -851,6 +927,11 @@ video {
   background-color: rgb(1 0 91 / var(--tw-bg-opacity));
 }
 
+.bg-bgColor01 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 240 230 / var(--tw-bg-opacity));
+}
+
 .px-\[106px\] {
   padding-left: 106px;
   padding-right: 106px;
@@ -866,6 +947,10 @@ video {
   padding-bottom: 16px;
 }
 
+.pb-\[113px\] {
+  padding-bottom: 113px;
+}
+
 .pl-\[123px\] {
   padding-left: 123px;
 }
@@ -878,16 +963,8 @@ video {
   padding-right: 99px;
 }
 
-.pt-\[110px\] {
-  padding-top: 110px;
-}
-
 .pt-\[77px\] {
   padding-top: 77px;
-}
-
-.pb-\[113px\] {
-  padding-bottom: 113px;
 }
 
 .text-center {
