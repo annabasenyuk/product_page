@@ -4,7 +4,7 @@ import autoprefixer from 'autoprefixer';
 export default {
   // content: ["./src/**/*.{html,js,ts,tsx}"],
   content: [
-    // "./dist/**/*.{js,ts,jsx,tsx,html}",
+    "./dist/**/*.{js,ts,jsx,tsx,html}",
     "./src/**/*.{js,ts,jsx,tsx,html}",
   ],
   theme: {
