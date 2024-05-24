@@ -14,6 +14,7 @@ export default {
       SofiaPro: ['SofiaPro', 'normal'],
       colors: {
         neutralColor: '#F9F0E5',
+        greenColor: '#1FAD40',
         textColor01: '#01005B',
         textColor04: '#565656',
         textColor05: '#676869',
@@ -36,6 +37,7 @@ export default {
         '15': '24px',
         '16': '40px',
         '17': '22px',
+        '18': '17px',
 
       },
       boxShadow: {
