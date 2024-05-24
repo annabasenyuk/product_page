@@ -27,7 +27,7 @@ export default {
         bgColor01:'#F9F0E6',
         bgColor02:'#F0EEEF',
         bgColor03:'#1C2E58',
-        bgColor04:'#C4C4C480',
+        bgColor04:'#C4C4C480'
       },
       lineHeight: {
         '11': '35px',
@@ -43,7 +43,11 @@ export default {
       boxShadow: {
         shadow00: '0px 3px 10px 0px #00000014',
         shadow01: '0px 3px 10px 1px #00000014',
-      }
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #F9F0E5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%)',
+        'custom-gradient2': 'linear-gradient(180deg, rgba(249, 240, 229, 0) 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 1) 100%)',
+      },
     },
   },
   plugins: [

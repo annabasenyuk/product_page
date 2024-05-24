@@ -30,8 +30,8 @@ import clockIcon from '../assets/icons/clock-icon.svg';
 
 export const ProductPage = () => {
   return (
-    <div className="">
-      <section className="h-screen relative  ">
+    <div className="relative">
+      <section className="h-screen relative">
         <div className="w-full h-[36px] bg-neutralColor flex items-center justify-center mb-[33px]">
           <p className="font-SuisseInt font-normal text-[11px] leading-11 tracking-[0.03em] text-textColor04">CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)  |  FREE SHIPPING on orders {'>'} $200  |  easy 45 day return window.</p>
         </div>
@@ -71,7 +71,7 @@ export const ProductPage = () => {
           <img src={threeWomen} alt="Three women in comfortable loungewear" className='max-w-[725px] mr-[62px]' />
         </div>
 
-        <div className='absolute w-[416px] rounded-[4px] px-[19px] py-[16px] border border-solid border-borderColor shadow-shadow00 ml-[106px] bottom-0 transform translate-y-1/2 '>
+        <div className='absolute w-[416px] rounded-[4px] px-[19px] py-[16px] border border-solid border-borderColor shadow-shadow00 ml-[106px] bottom-0 transform translate-y-1/2 z-20 bg-white'>
           <div className='flex justify-between mb-[12px]'>
             <div className='flex items-center justify-center'>
               <img src={womanPicture} alt="woman picture" className='w-[39px] h-[39px] mr-[14px]' />
@@ -89,13 +89,12 @@ export const ProductPage = () => {
         </div>
       </section>
 
-      <section className='pt-[77px] px-[106px] pb-[113px] flex justify-center flex-col items-center'>
+      <section className='pt-[77px] px-[106px] pb-[113px] flex justify-center flex-col items-center bg-custom-gradient z-0'>
         <div className='font-SofiaPro font-semibold text-[20px] leading-13 tracking-[0.07em] text-textColor07 mb-[15px]'>as seen in</div>
         <img src={logoPartners} alt="Logo partners" className='max-w-[1253px]' />
       </section>
 
       <section className='flex justify-between content-between h-screen'>
-        {/* <div className='ml-[136px]'> */}
         <div className='pl-[136px] flex flex-col items-stretch'>
           <h2 className="font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor01 mb-[74px] ml-[7px]">Loungewear you can be proud of.</h2>
 
@@ -313,7 +312,7 @@ export const ProductPage = () => {
         </div>
       </section>
 
-      <section className='flex flex-col items-center justify-center py-[84px]'>
+      <section className='flex flex-col items-center justify-center py-[84px] bg-custom-gradient2'>
         <h2 className='font-SofiaPro font-semibold text-[32px] leading-16 tracking-[0.01em] text-textColor01 mb-[25px]'>Find something you love.</h2>
 
         <p className='w-[570px] font-SofiaPro font-semibold text-[15px] text-center leading-17 tracking-[0.01em] text-textColor05 mb-[40px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat.</p>
